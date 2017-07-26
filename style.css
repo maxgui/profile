@@ -39,7 +39,7 @@ a:hover{
 
 .container {
   margin: 0 auto;
-  width: 600px;
+  width: 900px;
 }
 
 @media (max-width: 960px) {
@@ -51,11 +51,23 @@ a:hover{
   .container {
     width: 500px;
   }
+  #sidebar{
+    visibility: hidden;
+  }
+  #page-content {
+  margin-left: 0px;
+}
 }
 @media (max-width: 540px) {
   .container {
-    width: 300px;
+    width: 450px;
   }
+  #sidebar{
+    visibility: hidden;
+  }
+  #page-content {
+  margin-left: 0px;
+}
 }
 
 .text-center{
@@ -107,7 +119,7 @@ td > img {
   opacity: 0.7;
 }
 
-.list-inline {
+ul {
   padding-left: 0;
 }
 
@@ -137,4 +149,14 @@ td {
 
 #linkedin-link:hover {
   color: #0077b5;
+}
+
+#sidebar {
+  background-color: #314A52;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
 }
