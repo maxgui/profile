@@ -1,0 +1,140 @@
+body {
+  background-color: #f1f1f1;
+  color: #333333 ;
+  font-family: 'Lato', sans-serif;  ;
+  font-weight: 300
+  font-size: 17px;
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+}
+
+h1 {
+  color: #37c8a1;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 23px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: #a6a8ab;
+}
+
+a:hover{
+  color: #37c8a1;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+.card.text-center{
+  padding: 20px;
+  margin: 10px;
+  background-color: #F8F8F8;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px #C0C5CD;
+  margin: 20px;
+
+}
+
+.img-movie {
+  width: 100px;
+  height: 150px;
+  border-radius: 4px;
+}
+
+.img-movie:hover{
+  opacity: 0.8;
+}
+
+td > img {
+  width: 100px;
+  height: 150px;
+  border-radius: 4px;
+}
+
+.img-circle{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.btn-green {
+  background-color: #37c8a1;
+  color: white;
+  padding: 13px;
+  border-radius: 5px;
+
+}
+.btn-green:hover{
+  color:white;
+  background-color: #37c8a1;
+  opacity: 0.7;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px;
+}
+
+td {
+  padding:13px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+#facebook-link:hover {
+  color: #3b5998;
+}
+
+#twitter-link:hover {
+  color: #1da1f2;
+}
+
+#github-link:hover {
+  color: #24292e;
+}
+
+#linkedin-link:hover {
+  color: #0077b5;
+}
